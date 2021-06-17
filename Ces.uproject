@@ -3,6 +3,16 @@
 	"EngineAssociation": "4.26",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "TAKGM",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "CesiumForUnreal",
@@ -10,7 +20,7 @@
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/87b0d05800a545d49bf858ef3458c4f7"
 		},
 		{
-			"Name": "PointCloudGeneratorPlugin",
+			"Name": "EditorScriptingUtilities",
 			"Enabled": true
 		}
 	]
